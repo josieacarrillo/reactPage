@@ -1,6 +1,7 @@
 //import logo from './logo.svg'; - add in my personal pic here (:
 import './App.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import NavBar from './NavBar';
 import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
 import ArticlePage from './pages/ArticlePage';
@@ -11,7 +12,7 @@ function App() {
   return (
   <BrowserRouter>
     <div className="App">
-      <h1> My Awesome Blog
+      <NavBar/>
         <div id="page-body">
            <Routes>
              <Route path = "/" element= {<HomePage />} />
@@ -20,7 +21,6 @@ function App() {
              <Route path = "/articles/:articleId" element = {<ArticlePage /> } />
            </Routes>
         </div>
-      </h1>
     </div>
    </BrowserRouter>
   );

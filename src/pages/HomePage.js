@@ -1,7 +1,16 @@
-const HomePage = () => {
-    return (
-        <h1>  My home page, this site is ALL about me!  </h1>
+const HomePage = () => (
+    <>
+        <h1>  Welcome to my home page! </h1>
+
+        <p>
+        Blah blah blah blha.
+        </p>
+
+        <p>
+        paragraph 2 blah ba;bablkan
+        </p>
+        </>
     );
-}
+
 
 export default HomePage;

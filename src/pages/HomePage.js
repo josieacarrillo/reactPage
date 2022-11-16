@@ -3,7 +3,7 @@ const HomePage = () => (
         <h1>  Welcome to my home page! </h1>
 
         <p>
-        Blah blah blah blha.
+        Blah blah blah testtstststs
         </p>
 
         <p>

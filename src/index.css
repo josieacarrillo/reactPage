@@ -1,0 +1,10 @@
+body {
+font-size: 14px;
+  margin: 0;
+  font-family: Inter;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: Inter;
+}

@@ -1,0 +1,134 @@
+body {
+  font-family: Inter;
+  color: rgba(148,112,79,1);
+  font-size: 18px;
+}
+
+button {
+  padding: 16px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  background-color: black;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+h1, h3, h4, p {
+  margin-bottom: 0;
+  color: rgba(148,112,79,1);
+  font-family: Inter;
+}
+
+nav {
+  font-family: Inter;
+  font-style: Regular;
+  text-align: right;
+  font-size: 16px;
+  position: fixed;
+  justify-content: space-between;
+  top: 0;
+  width: 100%;
+  color: rgba(94,66,33,1);
+  background: white;
+  display: flex;
+}
+
+nav div {
+list-style-type: none;
+   color: rgba(94,66,33,1);
+     text-align: left;
+     display: flex;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  color: rgba(94,66,33,1);
+}
+
+nav li {
+  display: inline-block;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+nav a {
+  text-decoration: none;
+  font-family: Inter;
+  color: rgba(94,66,33,1);
+  font-weight: Regular;
+  padding: 24px 32px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+#page-body {
+  max-width: 700px;
+  margin: auto;
+  padding-top: 72px;
+}
+
+.article-list-item {
+  text-decoration: none;
+  font-family: Inter;
+  color: rgba(94,66,33,1);
+  font-weight: Regular;
+  opacity: 1;
+  padding: 16px 0 0 0;
+}
+
+.article-list-item p {
+  padding-bottom: 32px;
+  font-family: Inter;
+}
+
+#add-comment-form {
+  border-bottom: 2px solid black;
+  padding: 16px;
+}
+
+#add-comment-form h3 {
+  margin-bottom: 16px;
+}
+
+input, textarea {
+  display: block;
+  width: 300px;
+  padding: 8px;
+  border-radius: 8px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 18px;
+  border: 2px solid black;
+  margin-bottom: 16px;
+}
+
+.error {
+  padding: 8px;
+  border-radius: 4px;
+  background-color: pink;
+}
+
+#add-comment-form button {
+  width: 320px;
+}
+
+#upvotes-section button, p {
+  display: inline-block;
+  margin-right: 16px;
+}
+
+.comment {
+  border-bottom: 2px solid black;
+  padding: 16px;
+}
+
+.nav-right {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+}
+
+
